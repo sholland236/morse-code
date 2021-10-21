@@ -1,4 +1,3 @@
-// add numbers
 const morse = {
     "a": ".-",
     "b": "-...",
@@ -39,5 +38,4 @@ const morse = {
     " ": "/"
 }
 
-// remember to export!
 export default morse;

@@ -1,10 +1,6 @@
-// all functions go here
-
-// when importing remember to export from file
 import morse from "./data.js";
 
 const translate = (toTranslate) => {
-    // need to improve
     const toStringAndLowercase = toTranslate.toString().toLowerCase();
     let translated = [];
     // use map
