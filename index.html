@@ -10,15 +10,19 @@
 <body>
     <div class="translator-screen">
         <h1 class="translator-title">What do you want to translate?</h1>
-        <div class="translator-container">
-            <input type="text" id="englishText" name="englishText">
-            <button id="translate" type="submit">Translate</button>
-            <div id="output"></div>
-        </div>
-        <div class="translator-container">
-            <input type="text" id="morseText" name="morse-text" >
-            <button id="morseTranslate" type="submit">Translate</button>
-            <div id="morseOutput"></div>
+        <div class="containers">
+            <div class="translator-container">
+                <h3 class="translator-container__heading">Translate English to Morse Code:</h3>
+                <input type="text" id="englishText" name="englishText">
+                <button id="translate" type="submit">Translate</button>
+                <div id="output"></div>
+            </div>
+            <div class="translator-container">
+                <h3 class="translator-container__heading">Translate Morse Code to English:</h3>
+                <input type="text" id="morseText" name="morse-text" >
+                <button id="morseTranslate" type="submit">Translate</button>
+                <div id="morseOutput"></div>
+            </div>
         </div>
     </div>
     <script src="app.js" type="module"></script>

@@ -1,5 +1,5 @@
 import translate from "./translator.js"
-import translateFromMorse from "./translate-from-morse";
+import translateFromMorse from "./translate-from-morse.js";
 
 const input = document.querySelector("#englishText");
 const output = document.querySelector("#output");
@@ -15,5 +15,6 @@ translateButton.addEventListener("click", performTranslation);
 
 const performMorseTranslation = () => {
     morseOutput.innerHTML = translateFromMorse(morseInput.value);
+    console.log("HELLO");
 }
 morseTranslate.addEventListener("click", performMorseTranslation);
